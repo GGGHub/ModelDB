@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 typedef NS_ENUM(NSInteger, LSYModelGenderType)
 {
     LSYModelMale,
@@ -18,4 +19,5 @@ typedef NS_ENUM(NSInteger, LSYModelGenderType)
 @property (nonatomic,assign) LSYModelGenderType type;
 @property (nonatomic) BOOL type2;
 @property (nonatomic,strong) NSMutableArray *array;
+@property (nonatomic,strong) NSNumber *number;
 @end
