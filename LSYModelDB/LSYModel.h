@@ -18,6 +18,11 @@ typedef NS_ENUM(NSInteger, LSYModelGenderType)
 @property (nonatomic,assign) NSInteger age;
 @property (nonatomic,assign) LSYModelGenderType type;
 @property (nonatomic) BOOL type2;
-@property (nonatomic,strong) NSMutableArray *array;
+//@property (nonatomic,strong) NSMutableArray *array;
 @property (nonatomic,strong) NSNumber *number;
+//@property (nonatomic) CGRect rect;
+@property (nonatomic,strong) NSData *data;
+@property (nonatomic) int test1;
+@property (nonatomic) int test2;
+@property (nonatomic,copy) NSString *test3;
 @end

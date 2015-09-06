@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8440AEE79E082F3AF016F47F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FBCFC621112E0F11519D22 /* libPods.a */; };
+		AB164E991B9BDB13009C6758 /* LSYDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = AB164E981B9BDB13009C6758 /* LSYDatabase.m */; };
+		AB164E9C1B9BDC68009C6758 /* LSYAnalysisModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB164E9B1B9BDC68009C6758 /* LSYAnalysisModel.m */; };
 		ABA5D7A31B95F46A00C18A56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA5D7A21B95F46A00C18A56 /* main.m */; };
 		ABA5D7A61B95F46A00C18A56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA5D7A51B95F46A00C18A56 /* AppDelegate.m */; };
 		ABA5D7A91B95F46A00C18A56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA5D7A81B95F46A00C18A56 /* ViewController.m */; };
@@ -32,6 +34,10 @@
 		5CFF1933FD6C1DBE04F80C89 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		63FBCFC621112E0F11519D22 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7302286BA7BDBCEB61539A20 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AB164E971B9BDB13009C6758 /* LSYDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYDatabase.h; sourceTree = "<group>"; };
+		AB164E981B9BDB13009C6758 /* LSYDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYDatabase.m; sourceTree = "<group>"; };
+		AB164E9A1B9BDC68009C6758 /* LSYAnalysisModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYAnalysisModel.h; sourceTree = "<group>"; };
+		AB164E9B1B9BDC68009C6758 /* LSYAnalysisModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYAnalysisModel.m; sourceTree = "<group>"; };
 		ABA5D79D1B95F46A00C18A56 /* LSYModelDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSYModelDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA5D7A11B95F46A00C18A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABA5D7A21B95F46A00C18A56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,6 +109,10 @@
 				ABA5D7A51B95F46A00C18A56 /* AppDelegate.m */,
 				ABA5D7A71B95F46A00C18A56 /* ViewController.h */,
 				ABA5D7A81B95F46A00C18A56 /* ViewController.m */,
+				AB164E971B9BDB13009C6758 /* LSYDatabase.h */,
+				AB164E981B9BDB13009C6758 /* LSYDatabase.m */,
+				AB164E9A1B9BDC68009C6758 /* LSYAnalysisModel.h */,
+				AB164E9B1B9BDC68009C6758 /* LSYAnalysisModel.m */,
 				ABA5D7C61B95F48A00C18A56 /* LSYModel.h */,
 				ABA5D7C71B95F48A00C18A56 /* LSYModel.m */,
 				ABA5D7AA1B95F46A00C18A56 /* Main.storyboard */,
@@ -285,8 +295,10 @@
 			files = (
 				ABA5D7A91B95F46A00C18A56 /* ViewController.m in Sources */,
 				ABA5D7A61B95F46A00C18A56 /* AppDelegate.m in Sources */,
+				AB164E9C1B9BDC68009C6758 /* LSYAnalysisModel.m in Sources */,
 				ABA5D7C81B95F48A00C18A56 /* LSYModel.m in Sources */,
 				ABA5D7A31B95F46A00C18A56 /* main.m in Sources */,
+				AB164E991B9BDB13009C6758 /* LSYDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
